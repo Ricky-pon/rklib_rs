@@ -1,0 +1,29 @@
+{
+    "util": {
+        "module": "util",
+        "path": "src/utility/util.rs"
+    },
+    "div_floor": {
+        "module": "util",
+        "path": "src/utility/util.rs",
+        "macro": true
+    },
+    "div_ceil": {
+        "module": "util",
+        "path": "src/utility/util.rs",
+        "macro": true
+    },
+    "simple_regex": {
+        "module": "simple_regex",
+        "path": "src/utility/simple_regex.rs"
+    },
+    "input_checker": {
+        "module": "input_checker",
+        "path": "src/utility/input_checker.rs",
+        "dependency": ["simple_regex"]
+    },
+    "scanner": {
+        "module": "scanner",
+        "path": "src/utility/scanner.rs"
+    }
+}
